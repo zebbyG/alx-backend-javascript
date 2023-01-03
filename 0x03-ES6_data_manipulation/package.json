@@ -1,0 +1,19 @@
+{
+  "name": "0x03-ES6_data_manipulation",
+  "version": "1.0.0",
+  "description": "0x03-ES6_data_manipulation",
+  "main": "0-main.js",
+  "type": "module",
+  "dependencies": {
+    "eslint": "^8.31.0",
+    "jest": "^29.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "node 0-get_list_students.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

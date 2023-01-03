@@ -10,8 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "node 0-main.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dev": "node 0-main.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Zebbylion Njau <zebbynjau@gmail.com>",

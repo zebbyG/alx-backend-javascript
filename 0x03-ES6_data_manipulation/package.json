@@ -10,7 +10,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "node 0-get_list_students.js",
+    "dev": "node 0-main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

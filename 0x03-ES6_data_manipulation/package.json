@@ -1,9 +1,16 @@
 {
-  "name": "0x03-ES6_data_manipulation",
+  "name": "package.json",
   "version": "1.0.0",
-  "description": "0x03-ES6_data_manipulation",
+  "description": "0x03. ES6 data manipulation",
   "main": "0-get_list_students.js",
   "type": "module",
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "npm": "6.14.17",
+    "node": "14.20.0"
+  },
   "dependencies": {
     "babel-jest": "^29.3.1",
     "eslint": "^8.31.0",
@@ -12,13 +19,18 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zebbyG/alx-backend-javascrip/0x03-ES6_data_manipulation.git"
+    "url": "git+https://github.com/zebbyG/alx-backend-javascrip/0x03-ES6_data_manipulation/package.json.git"
   },
   "scripts": {
+    "start": "node",
     "dev": "node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "lint": "eslint"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "node",
+    "npm"
+  ],
+  "author": "Zebbylion Njau",
   "license": "ISC"
 }
